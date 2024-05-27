@@ -1,0 +1,4 @@
+Partition,NumberofJobs
+epyc,2756
+gpu,1951
+opteron,4509
