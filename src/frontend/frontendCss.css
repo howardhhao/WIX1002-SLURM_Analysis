@@ -95,6 +95,11 @@ body {
     overflow-y: auto;
 }
 
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+
 .sidebar ul {
     list-style-type: none;
     margin-top: 1rem;
