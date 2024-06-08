@@ -68,7 +68,7 @@ function Dashboard() {
 
         </div>
 
-
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobTLE-card'>
         <LineChartComponent />
         </div>

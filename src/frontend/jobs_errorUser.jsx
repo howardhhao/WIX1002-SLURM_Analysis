@@ -72,6 +72,7 @@ function Dashboard() {
             <p className='total-amount-card-title'>Lowest Jobs Error by user <strong>{lowestUserErrors.User}</strong></p>
           </div>
         </div>
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobSubmitted-card'>
           <LineChartComponent data={userErrorData} />
         </div>

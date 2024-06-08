@@ -84,6 +84,7 @@ function Dashboard() {
             <p className='total-amount-card-title'>Lowest Jobs Partition (<strong>{lowestJobs.Partition}</strong>)</p>
           </div>
         </div>
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobSubmitted-card'>
           <LineChartComponent data={data} />
         </div>

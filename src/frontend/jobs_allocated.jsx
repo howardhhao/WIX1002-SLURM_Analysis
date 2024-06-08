@@ -88,6 +88,7 @@ function Dashboard() {
             <p className='total-amount-card-title'>Lowest Jobs Allocated (<strong>{lowestJobs.month}</strong>)</p>
           </div>
         </div>
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobAllocated-card'>
           <LineChartComponent data={data} />
         </div>

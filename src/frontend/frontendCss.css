@@ -172,19 +172,30 @@ body {
 .content {
     background-color: #f9f4f8;
     position: fixed;
-    top: 50px;
+    top: 20px;
     left: 350px;
     right: 70px;
     bottom: 30px;
     padding: 20px;
-    /* border: 1px solid black; */
     overflow-y: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
 }
 
 .content-title {
     color: #10437a;
     font-weight: bold;
     font-size: 30px;
+}
+
+.content-title-2 {
+    color: #10437a;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 60px;
+    margin-bottom: -30px;
 }
 
 .total-amount-card {
@@ -289,4 +300,18 @@ body {
 
 .small-card-container {
     display: flex;
+}
+
+.tocode {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: ease 0.5s ;
+}
+
+.tocode:hover {
+    transform: scale(1.08);
 }

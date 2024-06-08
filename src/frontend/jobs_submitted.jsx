@@ -68,6 +68,8 @@ function Dashboard() {
   return (
     <div className='dashboard-container'>
       <Sidebar image={image} handleLogOut={handleLogOut} />
+      
+
       <div className='content'>
         <p className='content-title'>Overview</p>
         <div className='small-card-container'>
@@ -84,6 +86,9 @@ function Dashboard() {
             <p className='total-amount-card-title'>Lowest Jobs Submitted (<strong>{lowestJobs.month}</strong>)</p>
           </div>
         </div>
+
+        <p className='content-title-2'>Breakdown Analysis</p>
+
         <div className='jobSubmitted-card'>
           <LineChartComponent data={data} />
         </div>

@@ -96,7 +96,7 @@ function Dashboard() {
 
         </div>
 
-
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobCompleted-card'>
         <LineChartComponent data={data} />
         </div>

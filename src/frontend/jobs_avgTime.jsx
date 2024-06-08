@@ -89,6 +89,7 @@ function Dashboard() {
             <p className='total-amount-card-title'>Shortest Time Taken (<strong>{lowestJobs.month}</strong>)</p>
           </div>
         </div>
+        <p className='content-title-2'>Breakdown Analysis</p>
         <div className='jobTLE-card'>
           {executiveData && <LineChartComponent data={executiveData} />}
         </div>
