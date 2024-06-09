@@ -5,6 +5,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import { useNavigate } from 'react-router-dom';
 import 'C:\\Users\\User\\Desktop\\y1s1_dashboard\\my-app\\src\\frontend\\frontendCss.css'; 
 import image from 'C:\\Users\\User\\Desktop\\y1s1_dashboard\\my-app\\src\\frontend\\analytics.png';
+import TopNavBar from '../components/topNavBar';
 
 const LineChartComponent = ({ data }) => {
   return (
@@ -65,12 +66,15 @@ function Dashboard() {
     navigate('/');
   };
 
+
+
   return (
     <div className='dashboard-container'>
       <Sidebar image={image} handleLogOut={handleLogOut} />
       
 
       <div className='content'>
+      <TopNavBar/>
         <p className='content-title'>Overview</p>
         <div className='small-card-container'>
           <div className='total-amount-card'>

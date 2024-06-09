@@ -3,7 +3,7 @@ import Papa from 'papaparse';
 import Sidebar from '../components/sidebar';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useNavigate } from 'react-router-dom';
-
+import TopNavBar from '../components/topNavBar';
 import 'C:\\Users\\User\\Desktop\\y1s1_dashboard\\my-app\\src\\frontend\\frontendCss.css'; 
 import image from 'C:\\Users\\User\\Desktop\\y1s1_dashboard\\my-app\\src\\frontend\\analytics.png';
 
@@ -73,7 +73,7 @@ function Dashboard() {
   return (
     <div className='dashboard-container'>
       <Sidebar image={image} handleLogOut={handleLogOut} />
-      <div className='content'>
+      <div className='content'> <TopNavBar/>
         <p className='content-title'>Overview</p>
         <div className='small-card-container'>
           <div className='total-amount-card'>

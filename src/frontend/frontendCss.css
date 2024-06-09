@@ -172,12 +172,13 @@ body {
 .content {
     background-color: #f9f4f8;
     position: fixed;
-    top: 20px;
+    top: 0;
     left: 350px;
-    right: 70px;
+    right: 80px;
     bottom: 30px;
     padding: 20px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .content::-webkit-scrollbar {
@@ -315,3 +316,40 @@ body {
 .tocode:hover {
     transform: scale(1.08);
 }
+
+.horizontal-nav-bar{
+    background-color: #a3bfdd;
+    width: 97.5%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+  align-items: center;
+}
+
+.horizontal-nav-bar-search-box{
+    border-radius: 5px;
+    background-color: #10437a;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.horizontal-nav-bar-search-box:active{
+    border: none;
+}
+
+.icon-container-box {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.clicked {
+    background-color: lightgray;
+    font-weight: bold; 
+    cursor: pointer;
+  }
