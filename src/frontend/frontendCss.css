@@ -328,17 +328,18 @@ body {
 
 .horizontal-nav-bar-search-box{
     border-radius: 5px;
-    background-color: #10437a;
+    background-color: white;
     width: 20%;
     padding: 10px;
     border: none;
-    color: white;
+    color: black;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
-.horizontal-nav-bar-search-box:active{
-    border: none;
+.horizontal-nav-bar-search-box:focus{
+    border-color: transparent;
+    outline: none;
 }
 
 .icon-container-box {
@@ -346,7 +347,6 @@ body {
     align-items: center;
     margin-left: 20px;
 }
-
 
 .clicked {
     background-color: lightgray;
