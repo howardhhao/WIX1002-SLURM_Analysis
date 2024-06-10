@@ -69,6 +69,8 @@ function TopNavBar(  ) {
                     max-height: 200px;
                     overflow-y: auto;
                     z-index: 1000;
+                    border-radius: 10px; 
+                    margin-top: 20vh; 
                 }
 
                 .dropdown-menu li {
