@@ -8,7 +8,7 @@ function SignInPage() {
 
   const handleLogIn = (event) => {
     event.preventDefault();
-    navigate('/JobsSubmitted');
+    navigate('/LandingPage');
   };
 
   return (

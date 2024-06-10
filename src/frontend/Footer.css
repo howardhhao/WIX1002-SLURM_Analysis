@@ -1,0 +1,36 @@
+.footer {
+    background-color: #10437a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-links,
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .footer-links a,
+  .social-media-icons a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover,
+  .social-media-icons a:hover {
+    color: #ffca28;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+  }
+  

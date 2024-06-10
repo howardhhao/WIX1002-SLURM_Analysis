@@ -355,3 +355,51 @@ body {
     font-weight: bold; 
     cursor: pointer;
   }
+
+  @keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+  .content-title-landing-page {
+    font-weight: bold;
+    color: #10437a;
+    font-size: 80px;
+    margin-top: -10vh;
+    text-align: center;
+    animation: zoomIn 1.5s ease-in-out forwards;
+  }
+
+  .content-title-landing-page:hover {
+    transform: scale(1.1);
+}
+
+  .button-get-started {
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #10437a;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    animation: zoomIn 1.5s ease-in-out forwards;
+   
+  }
+
+  .button-get-started:hover {
+    background-color: rgb(201, 201, 201);
+    color: #10437a;
+    transform: scale(1.1);
+  }
+
+  .button-get-started-container {
+    display: flex;
+    justify-content: center;
+  }

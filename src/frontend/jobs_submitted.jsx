@@ -69,12 +69,12 @@ function Dashboard() {
 
 
   return (
-    <div className='dashboard-container'>
+    <><div className='dashboard-container'>
       <Sidebar image={image} handleLogOut={handleLogOut} />
-      
+
 
       <div className='content'>
-      <TopNavBar/>
+        <TopNavBar />
         <p className='content-title'>Overview</p>
         <div className='small-card-container'>
           <div className='total-amount-card'>
@@ -97,7 +97,7 @@ function Dashboard() {
           <LineChartComponent data={data} />
         </div>
       </div>
-    </div>
+    </div></>
   );
 }
 

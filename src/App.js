@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import SignIn from './frontend/signin';
+import LandingPage from './frontend/LandingPage';
 import JobsSubmitted from './frontend/jobs_submitted';
 import JobsAllocated from './frontend/jobs_allocated';
 import JobsCompleted from './frontend/jobs_completed';
@@ -21,6 +22,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<SignIn />} />
+        <Route exact path="/LandingPage" element={<LandingPage />} />
         <Route path="/JobsSubmitted" element={<JobsSubmitted />} />
         <Route path="/JobsAllocated" element={<JobsAllocated />} />
         <Route path="/JobsCompleted" element={<JobsCompleted />} />
